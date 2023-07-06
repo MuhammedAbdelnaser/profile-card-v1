@@ -11,18 +11,14 @@ function App() {
         {/* Should contain one Skill component
         for each web dev skill that you have,
         customized with props */}
-        <SkillList name="HTML + CSS" emojy="" bgcolor="red" />
+        <SkillList />
       </div>
     </div>
   );
 }
 
 function Avatar() {
-  return (
-    <div className="cardImage">
-      <img src="me.jpg" alt="Me" />
-    </div>
-  );
+  return <img className="avatar" src="me.jpg" alt="Muhammed Abdelnaser" />;
 }
 function Intro() {
   return (
@@ -36,7 +32,7 @@ function Intro() {
     </div>
   );
 }
-function SkillList(props) {
+function SkillList() {
   return (
     <div className="skill-list">
       <Skill skill="HTML + CSS" emoji="💪" color="red" />
