@@ -30,13 +30,7 @@ h1 {
   width: 100%;
   display: block;
 }
-.cardImage {
-  text-align: center;
-}
-.cardImage > img {
-  width: 440px;
-  height: 500px;
-}
+
 .data {
   padding: 32px;
   padding-top: 24px;
